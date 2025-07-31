@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jason Gonzales">
+    <meta property="description" content="Homepage of Jason Gonzales">
+    <title>Home | Jason Gonzales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <style>
+        /* https://github.com/lonekorean/gist-syntax-themes */
+        @import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/idle-fingers.css');
+        body .gist .gist-file {
+            border-color: #555 #555 #444
+        }
+        body .gist .gist-data {
+            border-color: #555
+        }
+        
+        body .gist .gist-meta {
+            color: #ffffff;
+            background: #373737; 
+        }
+
+        body .gist .gist-data .pl-s .pl-s1 {
+            color: #a5c261
+        }
+    </style>
+    <nav>
+        <ul>
+            <li class="nav">
+                <a href="/" style="color: rgb(255, 221, 4);">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Bookmarklets & Scripts</h1>
+        <h2>Userscripts</h2>
+        <p>
+            Userscripts are what Tampermonkey calls content scripts in the Chrome extension ecosystem.
+            Tampermonkey allows you to write up a script that would work as a content script without
+            the need to create a new extension for every script. Usually I write these when I find
+            something I don't like on a website I regularly interact with. Most of them are work related
+            and are meant to be discarded.
+        </p>
+        <h3>Override YouTube with a Google Search</h3>
+        <script src="https://gist.github.com/jasonandmonte/2a6ce6b919683a5fd302e0d12d1a791b.js"></script>
+        <h2>Bookmarklets</h2>
+        <p>These little IIFE programs run as a bookmark in your browser.</p>
+        <h3>Popout Twitch chat</h3>
+        <script src="https://gist.github.com/jasonandmonte/49f3568358b623dd047b8b2f6a2d0a20.js"></script>
+
+        <p>
+            Thank you to just-jeb for recreating the dark theme for embedding scripts!
+            <br>
+            <a href="https://gist.github.com/just-jeb/27d97d675c7d21ed441dd1458f72cb4a">https://gist.github.com/just-jeb/27d97d675c7d21ed441dd1458f72cb4a</a>
+        </p>
+    </div>
+    <footer>
+        <p>© Jason Gonzales 2025</p>
+    </footer>
+</body>
+</html>
